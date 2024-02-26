@@ -1,5 +1,6 @@
-# spring-boot-base
-spring boot base
+# anonymous-sign
 
-> 해당 `Repository`는 `cth.release` 기준 편안하게 만들어졌고\
-> Spring Security, Jwt, MYSQL이 셋팅되어 있습니다.
+교내 코딩관에서만(ip) 발급되는 session 서비스
+로그인이 필요 없는 간단한 서비스를 제공하고 싶을 때 쓰시면 됩니다.
+
+세션의 유지 시간은 created_At(ms) + (1000 * 60 * 60 * 24) (만들고 나서 24일)
